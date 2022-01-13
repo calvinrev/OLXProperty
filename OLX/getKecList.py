@@ -28,9 +28,9 @@ def getKecList():
                     kabkot.append(i)
                 elif '_g5' in i:
                     kec.append(i)
-            logging.info('-Jumlah Provinsi:',len(prov))
-            logging.info('-Jumlah Kabupaten/Kota:',len(kabkot))
-            logging.info('-Jumlah Kecamatan:',len(kec))
+            logging.info(f'-Jumlah Provinsi: {len(prov)}')
+            logging.info(f'-Jumlah Kabupaten/Kota: {len(kabkot)}')
+            logging.info(f'-Jumlah Kecamatan: {len(kec)}')
 
             #save as file
             with open('data/kecList.txt', 'w') as f:
