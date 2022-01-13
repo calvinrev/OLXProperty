@@ -11,8 +11,8 @@ This repo contains the code for crawl property data from (https://www.olx.co.id)
    Run `scrapy crawl olxPropertySitemap` at the project top level.
    <br>or<br>
    Run scrapSitemapProperty.bat file
-2) Transacted Ads <br>
-   Run `scrapy crawl rumah123trx` at the project top level.
+2) Method-2: Brute Force <br>
+   Run `scrapy crawl olxPropertyBrute` at the project top level.
    <br>or<br>
    Run scrapBruteProperty.bat file
    
