@@ -44,7 +44,7 @@ CREATE TABLE `olxproperty` (
   `status` varchar(8) NOT NULL,
   `created_at` datetime DEFAULT NULL,
   `created_at_first` datetime DEFAULT NULL,
-  `title` int(64) NOT NULL,
+  `title` varchar(150) NOT NULL,
   `main_info` varchar(72) DEFAULT NULL,
   `price` bigint(20) NOT NULL,
   `sqr_building` bigint(20) DEFAULT NULL,
