@@ -52,8 +52,8 @@ CREATE TABLE `olxproperty` (
   `bedroom` int(11) DEFAULT NULL,
   `bathroom` int(11) DEFAULT NULL,
   `floor` int(11) DEFAULT NULL,
-  `certificate` int(24) DEFAULT NULL,
-  `facility` varchar(82) DEFAULT NULL,
+  `certificate` varchar(24) DEFAULT NULL,
+  `facility` varchar(200) DEFAULT NULL,
   `user_id` varchar(9) DEFAULT NULL,
   `user_type` varchar(16) DEFAULT NULL,
   `crawl_time` date NOT NULL
