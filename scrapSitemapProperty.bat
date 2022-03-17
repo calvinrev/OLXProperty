@@ -1,2 +1,2 @@
 @echo [off]
-cmd /k "scrapy crawl olxPropertySitemap"
+cmd /k "scrapy crawl olxPropertySitemap  && python removeDuplicate.py"

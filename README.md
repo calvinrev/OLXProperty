@@ -8,11 +8,13 @@ This repo contains the code for crawl property data from (https://www.olx.co.id)
 
 ## Run
 1) Method-1: Using Sitemap <br>
-   Run `scrapy crawl olxPropertySitemap` at the project top level.
+   Run `scrapy crawl olxPropertySitemap` at the project top level,
+   then `python removeDuplicate.py`.
    <br>or<br>
    Run scrapSitemapProperty.bat file
 2) Method-2: Brute Force <br>
-   Run `scrapy crawl olxPropertyBrute` at the project top level.
+   Run `scrapy crawl olxPropertyBrute` at the project top level,
+   then `python removeDuplicate.py`
    <br>or<br>
    Run scrapBruteProperty.bat file
    
