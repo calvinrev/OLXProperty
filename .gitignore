@@ -1,6 +1,4 @@
-OLX/__pycache__/
-OLX/spider/__pycache__/
+__pycache__/
+__pycache__/
 
-data/
-
-logs/
+logs/*.log
